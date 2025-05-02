@@ -115,199 +115,198 @@ us_money_supply                 = load_asset_price("USM2", 240, "1M", None)
 
 
 # EU
-save_to_csv(eu_gdp_growth,          "../data/raw/economy/EU/", "eu_gdp_growth.csv")
-save_to_csv(eu_interest_rate,       "../data/raw/economy/EU/", "eu_interest_rate.csv")
-save_to_csv(eu_inflation_rate,      "../data/raw/economy/EU/", "eu_inflation_rate.csv")
-save_to_csv(eu_consumer_price_index, "../data/raw/economy/EU/", "eu_consumer_price_index.csv")
-save_to_csv(eu_producer_price_index, "../data/raw/economy/EU/", "eu_producer_price_index.csv")
-save_to_csv(eu_unemployment_rate,   "../data/raw/economy/EU/", "eu_unemployment_rate.csv")
-save_to_csv(eu_trade_balance,       "../data/raw/economy/EU/", "eu_trade_balance.csv")
-save_to_csv(eu_gov_debt,            "../data/raw/economy/EU/", "eu_gov_debt.csv")
-save_to_csv(eu_consumer_confidence_index, "../data/raw/economy/EU/", "eu_consumer_confidence_index.csv")
-save_to_csv(eu_retail_sales,        "../data/raw/economy/EU/", "eu_retail_sales.csv")
-save_to_csv(eu_money_supply,        "../data/raw/economy/EU/", "eu_money_supply.csv")
+save_to_csv(eu_gdp_growth,          "data/raw/economy/EU/", "eu_gdp_growth.csv")
+save_to_csv(eu_interest_rate,       "data/raw/economy/EU/", "eu_interest_rate.csv")
+save_to_csv(eu_inflation_rate,      "data/raw/economy/EU/", "eu_inflation_rate.csv")
+save_to_csv(eu_consumer_price_index, "data/raw/economy/EU/", "eu_consumer_price_index.csv")
+save_to_csv(eu_producer_price_index, "data/raw/economy/EU/", "eu_producer_price_index.csv")
+save_to_csv(eu_unemployment_rate,   "data/raw/economy/EU/", "eu_unemployment_rate.csv")
+save_to_csv(eu_trade_balance,       "data/raw/economy/EU/", "eu_trade_balance.csv")
+save_to_csv(eu_gov_debt,            "data/raw/economy/EU/", "eu_gov_debt.csv")
+save_to_csv(eu_consumer_confidence_index, "data/raw/economy/EU/", "eu_consumer_confidence_index.csv")
+save_to_csv(eu_retail_sales,        "data/raw/economy/EU/", "eu_retail_sales.csv")
+save_to_csv(eu_money_supply,        "data/raw/economy/EU/", "eu_money_supply.csv")
 
 # GB
-save_to_csv(gb_gdp_growth,          "../data/raw/economy/GB/", "gb_gdp_growth.csv")
-save_to_csv(gb_interest_rate,       "../data/raw/economy/GB/", "gb_interest_rate.csv")
-save_to_csv(gb_inflation_rate,      "../data/raw/economy/GB/", "gb_inflation_rate.csv")
-save_to_csv(gb_consumer_price_index, "../data/raw/economy/GB/", "gb_consumer_price_index.csv")
-save_to_csv(gb_producer_price_index, "../data/raw/economy/GB/", "gb_producer_price_index.csv")
-save_to_csv(gb_unemployment_rate,   "../data/raw/economy/GB/", "gb_unemployment_rate.csv")
-save_to_csv(gb_trade_balance,       "../data/raw/economy/GB/", "gb_trade_balance.csv")
-save_to_csv(gb_gov_debt,            "../data/raw/economy/GB/", "gb_gov_debt.csv")
-save_to_csv(gb_consumer_confidence_index, "../data/raw/economy/GB/", "gb_consumer_confidence_index.csv")
-save_to_csv(gb_retail_sales,        "../data/raw/economy/GB/", "gb_retail_sales.csv")
-save_to_csv(gb_money_supply,        "../data/raw/economy/GB/", "gb_money_supply.csv")
+save_to_csv(gb_gdp_growth,          "data/raw/economy/GB/", "gb_gdp_growth.csv")
+save_to_csv(gb_interest_rate,       "data/raw/economy/GB/", "gb_interest_rate.csv")
+save_to_csv(gb_inflation_rate,      "data/raw/economy/GB/", "gb_inflation_rate.csv")
+save_to_csv(gb_consumer_price_index, "data/raw/economy/GB/", "gb_consumer_price_index.csv")
+save_to_csv(gb_producer_price_index, "data/raw/economy/GB/", "gb_producer_price_index.csv")
+save_to_csv(gb_unemployment_rate,   "data/raw/economy/GB/", "gb_unemployment_rate.csv")
+save_to_csv(gb_trade_balance,       "data/raw/economy/GB/", "gb_trade_balance.csv")
+save_to_csv(gb_gov_debt,            "data/raw/economy/GB/", "gb_gov_debt.csv")
+save_to_csv(gb_consumer_confidence_index, "data/raw/economy/GB/", "gb_consumer_confidence_index.csv")
+save_to_csv(gb_retail_sales,        "data/raw/economy/GB/", "gb_retail_sales.csv")
+save_to_csv(gb_money_supply,        "data/raw/economy/GB/", "gb_money_supply.csv")
 
 # AU
-save_to_csv(au_gdp_growth,          "../data/raw/economy/AU/", "au_gdp_growth.csv")
-save_to_csv(au_interest_rate,       "../data/raw/economy/AU/", "au_interest_rate.csv")
-save_to_csv(au_inflation_rate,      "../data/raw/economy/AU/", "au_inflation_rate.csv")
-save_to_csv(au_consumer_price_index, "../data/raw/economy/AU/", "au_consumer_price_index.csv")
-save_to_csv(au_producer_price_index, "../data/raw/economy/AU/", "au_producer_price_index.csv")
-save_to_csv(au_unemployment_rate,   "../data/raw/economy/AU/", "au_unemployment_rate.csv")
-save_to_csv(au_trade_balance,       "../data/raw/economy/AU/", "au_trade_balance.csv")
-save_to_csv(au_gov_debt,            "../data/raw/economy/AU/", "au_gov_debt.csv")
-save_to_csv(au_consumer_confidence_index, "../data/raw/economy/AU/", "au_consumer_confidence_index.csv")
-save_to_csv(au_retail_sales,        "../data/raw/economy/AU/", "au_retail_sales.csv")
-save_to_csv(au_money_supply,        "../data/raw/economy/AU/", "au_money_supply.csv")
+save_to_csv(au_gdp_growth,          "data/raw/economy/AU/", "au_gdp_growth.csv")
+save_to_csv(au_interest_rate,       "data/raw/economy/AU/", "au_interest_rate.csv")
+save_to_csv(au_inflation_rate,      "data/raw/economy/AU/", "au_inflation_rate.csv")
+save_to_csv(au_consumer_price_index, "data/raw/economy/AU/", "au_consumer_price_index.csv")
+save_to_csv(au_producer_price_index, "data/raw/economy/AU/", "au_producer_price_index.csv")
+save_to_csv(au_unemployment_rate,   "data/raw/economy/AU/", "au_unemployment_rate.csv")
+save_to_csv(au_trade_balance,       "data/raw/economy/AU/", "au_trade_balance.csv")
+save_to_csv(au_gov_debt,            "data/raw/economy/AU/", "au_gov_debt.csv")
+save_to_csv(au_consumer_confidence_index, "data/raw/economy/AU/", "au_consumer_confidence_index.csv")
+save_to_csv(au_retail_sales,        "data/raw/economy/AU/", "au_retail_sales.csv")
+save_to_csv(au_money_supply,        "data/raw/economy/AU/", "au_money_supply.csv")
 
 # NZ
-save_to_csv(nz_gdp_growth,          "../data/raw/economy/NZ/", "nz_gdp_growth.csv")
-save_to_csv(nz_interest_rate,       "../data/raw/economy/NZ/", "nz_interest_rate.csv")
-save_to_csv(nz_inflation_rate,      "../data/raw/economy/NZ/", "nz_inflation_rate.csv")
-save_to_csv(nz_consumer_price_index, "../data/raw/economy/NZ/", "nz_consumer_price_index.csv")
-save_to_csv(nz_producer_price_index, "../data/raw/economy/NZ/", "nz_producer_price_index.csv")
-save_to_csv(nz_unemployment_rate,   "../data/raw/economy/NZ/", "nz_unemployment_rate.csv")
-save_to_csv(nz_trade_balance,       "../data/raw/economy/NZ/", "nz_trade_balance.csv")
-save_to_csv(nz_gov_debt,            "../data/raw/economy/NZ/", "nz_gov_debt.csv")
-save_to_csv(nz_consumer_confidence_index, "../data/raw/economy/NZ/", "nz_consumer_confidence_index.csv")
-save_to_csv(nz_retail_sales,        "../data/raw/economy/NZ/", "nz_retail_sales.csv")
-save_to_csv(nz_money_supply,        "../data/raw/economy/NZ/", "nz_money_supply.csv")
+save_to_csv(nz_gdp_growth,          "data/raw/economy/NZ/", "nz_gdp_growth.csv")
+save_to_csv(nz_interest_rate,       "data/raw/economy/NZ/", "nz_interest_rate.csv")
+save_to_csv(nz_inflation_rate,      "data/raw/economy/NZ/", "nz_inflation_rate.csv")
+save_to_csv(nz_consumer_price_index, "data/raw/economy/NZ/", "nz_consumer_price_index.csv")
+save_to_csv(nz_producer_price_index, "data/raw/economy/NZ/", "nz_producer_price_index.csv")
+save_to_csv(nz_unemployment_rate,   "data/raw/economy/NZ/", "nz_unemployment_rate.csv")
+save_to_csv(nz_trade_balance,       "data/raw/economy/NZ/", "nz_trade_balance.csv")
+save_to_csv(nz_gov_debt,            "data/raw/economy/NZ/", "nz_gov_debt.csv")
+save_to_csv(nz_consumer_confidence_index, "data/raw/economy/NZ/", "nz_consumer_confidence_index.csv")
+save_to_csv(nz_retail_sales,        "data/raw/economy/NZ/", "nz_retail_sales.csv")
+save_to_csv(nz_money_supply,        "data/raw/economy/NZ/", "nz_money_supply.csv")
 
 # CA
-save_to_csv(ca_gdp_growth,          "../data/raw/economy/CA/", "ca_gdp_growth.csv")
-save_to_csv(ca_interest_rate,       "../data/raw/economy/CA/", "ca_interest_rate.csv")
-save_to_csv(ca_inflation_rate,      "../data/raw/economy/CA/", "ca_inflation_rate.csv")
-save_to_csv(ca_consumer_price_index, "../data/raw/economy/CA/", "ca_consumer_price_index.csv")
-save_to_csv(ca_producer_price_index, "../data/raw/economy/CA/", "ca_producer_price_index.csv")
-save_to_csv(ca_unemployment_rate,   "../data/raw/economy/CA/", "ca_unemployment_rate.csv")
-save_to_csv(ca_trade_balance,       "../data/raw/economy/CA/", "ca_trade_balance.csv")
-save_to_csv(ca_gov_debt,            "../data/raw/economy/CA/", "ca_gov_debt.csv")
-save_to_csv(ca_consumer_confidence_index, "../data/raw/economy/CA/", "ca_consumer_confidence_index.csv")
-save_to_csv(ca_retail_sales,        "../data/raw/economy/CA/", "ca_retail_sales.csv")
-save_to_csv(ca_money_supply,        "../data/raw/economy/CA/", "ca_money_supply.csv")
+save_to_csv(ca_gdp_growth,          "data/raw/economy/CA/", "ca_gdp_growth.csv")
+save_to_csv(ca_interest_rate,       "data/raw/economy/CA/", "ca_interest_rate.csv")
+save_to_csv(ca_inflation_rate,      "data/raw/economy/CA/", "ca_inflation_rate.csv")
+save_to_csv(ca_consumer_price_index, "data/raw/economy/CA/", "ca_consumer_price_index.csv")
+save_to_csv(ca_producer_price_index, "data/raw/economy/CA/", "ca_producer_price_index.csv")
+save_to_csv(ca_unemployment_rate,   "data/raw/economy/CA/", "ca_unemployment_rate.csv")
+save_to_csv(ca_trade_balance,       "data/raw/economy/CA/", "ca_trade_balance.csv")
+save_to_csv(ca_gov_debt,            "data/raw/economy/CA/", "ca_gov_debt.csv")
+save_to_csv(ca_consumer_confidence_index, "data/raw/economy/CA/", "ca_consumer_confidence_index.csv")
+save_to_csv(ca_retail_sales,        "data/raw/economy/CA/", "ca_retail_sales.csv")
+save_to_csv(ca_money_supply,        "data/raw/economy/CA/", "ca_money_supply.csv")
 
 # JP
-save_to_csv(jp_gdp_growth,          "../data/raw/economy/JP/", "jp_gdp_growth.csv")
-save_to_csv(jp_interest_rate,       "../data/raw/economy/JP/", "jp_interest_rate.csv")
-save_to_csv(jp_inflation_rate,      "../data/raw/economy/JP/", "jp_inflation_rate.csv")
-save_to_csv(jp_consumer_price_index, "../data/raw/economy/JP/", "jp_consumer_price_index.csv")
-save_to_csv(jp_producer_price_index, "../data/raw/economy/JP/", "jp_producer_price_index.csv")
-save_to_csv(jp_unemployment_rate,   "../data/raw/economy/JP/", "jp_unemployment_rate.csv")
-save_to_csv(jp_trade_balance,       "../data/raw/economy/JP/", "jp_trade_balance.csv")
-save_to_csv(jp_gov_debt,            "../data/raw/economy/JP/", "jp_gov_debt.csv")
-save_to_csv(jp_consumer_confidence_index, "../data/raw/economy/JP/", "jp_consumer_confidence_index.csv")
-save_to_csv(jp_retail_sales,        "../data/raw/economy/JP/", "jp_retail_sales.csv")
-save_to_csv(jp_money_supply,        "../data/raw/economy/JP/", "jp_money_supply.csv")
+save_to_csv(jp_gdp_growth,          "data/raw/economy/JP/", "jp_gdp_growth.csv")
+save_to_csv(jp_interest_rate,       "data/raw/economy/JP/", "jp_interest_rate.csv")
+save_to_csv(jp_inflation_rate,      "data/raw/economy/JP/", "jp_inflation_rate.csv")
+save_to_csv(jp_consumer_price_index, "data/raw/economy/JP/", "jp_consumer_price_index.csv")
+save_to_csv(jp_producer_price_index, "data/raw/economy/JP/", "jp_producer_price_index.csv")
+save_to_csv(jp_unemployment_rate,   "data/raw/economy/JP/", "jp_unemployment_rate.csv")
+save_to_csv(jp_trade_balance,       "data/raw/economy/JP/", "jp_trade_balance.csv")
+save_to_csv(jp_gov_debt,            "data/raw/economy/JP/", "jp_gov_debt.csv")
+save_to_csv(jp_consumer_confidence_index, "data/raw/economy/JP/", "jp_consumer_confidence_index.csv")
+save_to_csv(jp_retail_sales,        "data/raw/economy/JP/", "jp_retail_sales.csv")
+save_to_csv(jp_money_supply,        "data/raw/economy/JP/", "jp_money_supply.csv")
 
 # CH
-save_to_csv(ch_gdp_growth,          "../data/raw/economy/CH/", "ch_gdp_growth.csv")
-save_to_csv(ch_interest_rate,       "../data/raw/economy/CH/", "ch_interest_rate.csv")
-save_to_csv(ch_inflation_rate,      "../data/raw/economy/CH/", "ch_inflation_rate.csv")
-save_to_csv(ch_consumer_price_index, "../data/raw/economy/CH/", "ch_consumer_price_index.csv")
-save_to_csv(ch_producer_price_index, "../data/raw/economy/CH/", "ch_producer_price_index.csv")
-save_to_csv(ch_unemployment_rate,   "../data/raw/economy/CH/", "ch_unemployment_rate.csv")
-save_to_csv(ch_trade_balance,       "../data/raw/economy/CH/", "ch_trade_balance.csv")
-save_to_csv(ch_gov_debt,            "../data/raw/economy/CH/", "ch_gov_debt.csv")
-save_to_csv(ch_consumer_confidence_index, "../data/raw/economy/CH/", "ch_consumer_confidence_index.csv")
-save_to_csv(ch_retail_sales,        "../data/raw/economy/CH/", "ch_retail_sales.csv")
-save_to_csv(ch_money_supply,        "../data/raw/economy/CH/", "ch_money_supply.csv")
+save_to_csv(ch_gdp_growth,          "data/raw/economy/CH/", "ch_gdp_growth.csv")
+save_to_csv(ch_interest_rate,       "data/raw/economy/CH/", "ch_interest_rate.csv")
+save_to_csv(ch_inflation_rate,      "data/raw/economy/CH/", "ch_inflation_rate.csv")
+save_to_csv(ch_consumer_price_index, "data/raw/economy/CH/", "ch_consumer_price_index.csv")
+save_to_csv(ch_producer_price_index, "data/raw/economy/CH/", "ch_producer_price_index.csv")
+save_to_csv(ch_unemployment_rate,   "data/raw/economy/CH/", "ch_unemployment_rate.csv")
+save_to_csv(ch_trade_balance,       "data/raw/economy/CH/", "ch_trade_balance.csv")
+save_to_csv(ch_gov_debt,            "data/raw/economy/CH/", "ch_gov_debt.csv")
+save_to_csv(ch_consumer_confidence_index, "data/raw/economy/CH/", "ch_consumer_confidence_index.csv")
+save_to_csv(ch_retail_sales,        "data/raw/economy/CH/", "ch_retail_sales.csv")
+save_to_csv(ch_money_supply,        "data/raw/economy/CH/", "ch_money_supply.csv")
 
 # US
-save_to_csv(us_gdp_growth,          "../data/raw/economy/US/", "us_gdp_growth.csv")
-save_to_csv(us_interest_rate,       "../data/raw/economy/US/", "us_interest_rate.csv")
-save_to_csv(us_inflation_rate,      "../data/raw/economy/US/", "us_inflation_rate.csv")
-save_to_csv(us_consumer_price_index, "../data/raw/economy/US/", "us_consumer_price_index.csv")
-save_to_csv(us_producer_price_index, "../data/raw/economy/US/", "us_producer_price_index.csv")
-save_to_csv(us_unemployment_rate,   "../data/raw/economy/US/", "us_unemployment_rate.csv")
-save_to_csv(us_trade_balance,       "../data/raw/economy/US/", "us_trade_balance.csv")
-save_to_csv(us_gov_debt,            "../data/raw/economy/US/", "us_gov_debt.csv")
-save_to_csv(us_consumer_confidence_index, "../data/raw/economy/US/", "us_consumer_confidence_index.csv")
-save_to_csv(us_retail_sales,        "../data/raw/economy/US/", "us_retail_sales.csv")
-save_to_csv(us_money_supply,        "../data/raw/economy/US/", "us_money_supply.csv")
+save_to_csv(us_gdp_growth,          "data/raw/economy/US/", "us_gdp_growth.csv")
+save_to_csv(us_interest_rate,       "data/raw/economy/US/", "us_interest_rate.csv")
+save_to_csv(us_inflation_rate,      "data/raw/economy/US/", "us_inflation_rate.csv")
+save_to_csv(us_consumer_price_index, "data/raw/economy/US/", "us_consumer_price_index.csv")
+save_to_csv(us_producer_price_index, "data/raw/economy/US/", "us_producer_price_index.csv")
+save_to_csv(us_unemployment_rate,   "data/raw/economy/US/", "us_unemployment_rate.csv")
+save_to_csv(us_trade_balance,       "data/raw/economy/US/", "us_trade_balance.csv")
+save_to_csv(us_gov_debt,            "data/raw/economy/US/", "us_gov_debt.csv")
+save_to_csv(us_consumer_confidence_index, "data/raw/economy/US/", "us_consumer_confidence_index.csv")
+save_to_csv(us_retail_sales,        "data/raw/economy/US/", "us_retail_sales.csv")
+save_to_csv(us_money_supply,        "data/raw/economy/US/", "us_money_supply.csv")
 
 
-# Currency futures Data
 # Currency futures Data
 #Euro FX Futures
-eu_future = load_asset_price("6E1!", 240, "1M", None)
+eu_future = load_asset_price("6E1!", 480, "1M", None)
 
 #Australian Dollar Futures
-au_future = load_asset_price("6A1!", 240, "1M", None)
+au_future = load_asset_price("6A1!", 480, "1M", None)
 
 #British Pound Futures
-gb_future = load_asset_price("6B1!", 240, "1M", None)
+gb_future = load_asset_price("6B1!", 480, "1M", None)
 
 #New Zealand Futures
-nz_future = load_asset_price("6N1!", 240, "1M", None)
+nz_future = load_asset_price("6N1!", 480, "1M", None)
 
 #Japanese Futures
-jp_future = load_asset_price("6J1!", 240, "1M", None)
+jp_future = load_asset_price("6J1!", 480, "1M", None)
 
 #Canadia Futures
-ca_future = load_asset_price("6C1!", 240, "1M", None)
+ca_future = load_asset_price("6C1!", 480, "1M", None)
 
 #Swiss Franc Futures
-ch_future = load_asset_price("6S1!", 240, "1M", None)
+ch_future = load_asset_price("6S1!", 480, "1M", None)
 
 #U.S. Dollar Index Futures
-us_future = load_asset_price("DX1!", 240, "1M", None)
+us_future = load_asset_price("DX1!", 480, "1M", None)
 
 #EU
-save_to_csv(eu_future, "../data/raw/currency/EU", "eu_future.csv")
+save_to_csv(eu_future, "data/raw/currency/EU", "eu_future.csv")
 
 #AU
-save_to_csv(au_future, "../data/raw//currency/AU", "au_future.csv")
+save_to_csv(au_future, "data/raw/currency/AU", "au_future.csv")
 
 #GB
-save_to_csv(gb_future, "../data/raw//currency/GB", "gb_future.csv")
+save_to_csv(gb_future, "data/raw/currency/GB", "gb_future.csv")
 
 #NZ
-save_to_csv(nz_future, "../data/raw/currency/NZ", "nz_future.csv")
+save_to_csv(nz_future, "data/raw/currency/NZ", "nz_future.csv")
 
 #JP
-save_to_csv(jp_future, "../data/raw/currency/JP", "jp_future.csv")
+save_to_csv(jp_future, "data/raw/currency/JP", "jp_future.csv")
 
 #CA
-save_to_csv(ca_future, "../data/raw/currency/CA", "ca_future.csv")
+save_to_csv(ca_future, "data/raw/currency/CA", "ca_future.csv")
 
 #CH
-save_to_csv(ch_future, "../data/raw/currency/CH", "ch_future.csv")
+save_to_csv(ch_future, "data/raw/currency/CH", "ch_future.csv")
 
 #US
-save_to_csv(us_future, "../data/raw//currency/US", "us_future.csv")
+save_to_csv(us_future, "data/raw//currency/US", "us_future.csv")
 
 # FOREX Market Data
 # EUR/USD
-eurusd_future = load_asset_price("EURUSD", 240, "1M", None)
+eurusd_future = load_asset_price("EURUSD", 480, "1M", None)
 
 # AUD/USD
-audusd_future = load_asset_price("AUDUSD", 240, "1M", None)
+audusd_future = load_asset_price("AUDUSD", 480, "1M", None)
 
 # GBP/USD
-gbpusd_future = load_asset_price("GBPUSD", 240, "1M", None)
+gbpusd_future = load_asset_price("GBPUSD", 480, "1M", None)
 
 # NZD/USD
-nzdusd_future = load_asset_price("NZDUSD", 240, "1M", None)
+nzdusd_future = load_asset_price("NZDUSD", 480, "1M", None)
 
 # USD/JPY
-usdjpy_future = load_asset_price("USDJPY", 240, "1M", None)
+usdjpy_future = load_asset_price("USDJPY", 480, "1M", None)
 
 # USD/CAD
-usdcad_future = load_asset_price("USDCAD", 240, "1M", None)
+usdcad_future = load_asset_price("USDCAD", 480, "1M", None)
 
 # USD/CHF
-usdchf_future = load_asset_price("USDCHF", 240, "1M", None)
+usdchf_future = load_asset_price("USDCHF", 480, "1M", None)
 
 # EUR/USD
-save_to_csv(eurusd_future, "../data/raw/forex/EURUSD", "eurusd.csv")
+save_to_csv(eurusd_future, "data/raw/forex/EURUSD", "eurusd.csv")
 
 # AUD/USD
-save_to_csv(audusd_future, "../data/raw/forex/AUDUSD", "audusd.csv")
+save_to_csv(audusd_future, "data/raw/forex/AUDUSD", "audusd.csv")
 
 # GBP/USD
-save_to_csv(gbpusd_future, "../data/raw/forex/GBPUSD", "gbpusd.csv")
+save_to_csv(gbpusd_future, "data/raw/forex/GBPUSD", "gbpusd.csv")
 
 # NZD/USD
-save_to_csv(nzdusd_future, "../data/raw/forex/NZDUSD", "nzdusd.csv")
+save_to_csv(nzdusd_future, "data/raw/forex/NZDUSD", "nzdusd.csv")
 
 # USD/JPY
-save_to_csv(usdjpy_future, "../data/raw/forex/USDJPY", "usdjpy.csv")
+save_to_csv(usdjpy_future, "data/raw/forex/USDJPY", "usdjpy.csv")
 
 # USD/CAD
-save_to_csv(usdcad_future, "../data/raw/forex/USDCAD", "usdcad.csv")
+save_to_csv(usdcad_future, "data/raw/forex/USDCAD", "usdcad.csv")
 
 # USD/CHF
-save_to_csv(usdchf_future, "../data/raw/forex/USDCHF", "usdchf.csv")
+save_to_csv(usdchf_future, "data/raw/forex/USDCHF", "usdchf.csv")
