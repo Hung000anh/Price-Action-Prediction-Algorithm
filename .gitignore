@@ -26,3 +26,5 @@ scripts/indicator/cot_index.py
 scripts/indicator/moving_averages.py
 scripts/indicator/swing_high_low.py
 scripts/notebook.ipynb
+scripts/indicator/cot_index.py
+scripts/notebook.ipynb
