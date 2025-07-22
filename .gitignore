@@ -12,3 +12,12 @@ scripts/f_year.txt
 scripts/FinComYY.txt
 scripts/FinFutYY.txt
 scripts/FUT86_16.txt
+scripts/indicator/cot_index.py
+scripts/indicator/moving_averages.py
+scripts/indicator/swing_high_low.py
+scripts/notebook.ipynb
+scripts/report.ipynb
+scripts/test.ipynb
+scripts/test2.ipynb
+scripts/utils/load_data.py
+scripts/utils/load_portfolio_data.py
