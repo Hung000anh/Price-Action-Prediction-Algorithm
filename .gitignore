@@ -21,3 +21,4 @@ scripts/test.ipynb
 scripts/test2.ipynb
 scripts/utils/load_data.py
 scripts/utils/load_portfolio_data.py
+scripts/notebook.ipynb
