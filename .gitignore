@@ -22,3 +22,7 @@ scripts/test2.ipynb
 scripts/utils/load_data.py
 scripts/utils/load_portfolio_data.py
 scripts/notebook.ipynb
+scripts/indicator/cot_index.py
+scripts/indicator/moving_averages.py
+scripts/indicator/swing_high_low.py
+scripts/notebook.ipynb
