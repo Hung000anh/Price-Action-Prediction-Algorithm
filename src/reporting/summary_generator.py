@@ -13,25 +13,29 @@ def generate_summary_report(data):
     
     for symbol, datasets in data.items():
         # MA trends
-        ma_d = get_ma_trend(datasets['1D_data'], timeframe="D")
-        ma_w = get_ma_trend(datasets['1W_data'], timeframe="W")
-        ma_m = get_ma_trend(datasets['1M_data'], timeframe="M")
+        ma_d = get_ma_trend(datasets['asset_data']['1D_data'], timeframe="D")
+        ma_w = get_ma_trend(datasets['asset_data']['1W_data'], timeframe="W")
+        ma_m = get_ma_trend(datasets['asset_data']['1M_data'], timeframe="M")
 
         # Market Structure
-        ms_d = get_structure_trend(datasets['1D_data'], timeframe='D')
-        ms_w = get_structure_trend(datasets['1W_data'], timeframe='W')
-        ms_m = get_structure_trend(datasets['1M_data'], timeframe='M')
+        ms_d = get_structure_trend(datasets['asset_data']['1D_data'], timeframe='D')
+        ms_w = get_structure_trend(datasets['asset_data']['1W_data'], timeframe='W')
+        ms_m = get_structure_trend(datasets['asset_data']['1M_data'], timeframe='M')
 
         # COT trend
-        cot_status = get_cot_trend(datasets['COT_data'])
+        cot_status = get_cot_trend(datasets['cot_data'])
 
         # Seasonal values
-        ss_t = get_seasonal_trends(datasets['1M_data'])
+        ss_t = get_seasonal_trends(datasets['asset_data']['1M_data'], threshold= 0.05)
 
         def format_seasonal(period):
-            val = ss_t.loc[ss_t['Period'] == period, 'Average % Change'].values[0]
-            trend = ss_t.loc[ss_t['Period'] == period, 'Trend'].values[0]
+            subset = ss_t.loc[ss_t['Period'] == period]
+            if subset.empty:
+                return "N/A"
+            val = subset['Average % Change'].values[0]
+            trend = subset['Trend'].values[0]
             return f"{trend}\nAvgs: {val:.3f}%"
+
 
         s_2y = format_seasonal('Last 2 Years')
         s_5y = format_seasonal('Last 5 Years')
