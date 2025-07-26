@@ -41,12 +41,13 @@ from price_loaders.tradingview import load_asset_price
 PORTFOLIO: dict[str, list[str]] = {
     "forex": [
         "EURUSD",
-        # "GBPUSD",
-        # "AUDUSD",
-        # "NZDUSD",
-        # "USDJPY",
-        # "USDCAD",
-        # "USDCHF",
+        "GBPUSD",
+        "AUDUSD",
+        "NZDUSD",
+        "USDJPY",
+        "USDCAD",
+        "USDCHF",
+        'DX1!'
     ],
     "future": [
         "6E1!",
@@ -64,6 +65,7 @@ PORTFOLIO: dict[str, list[str]] = {
         "LTCUSD",
         "SOLUSD",
         "XRPUSD",
+        "DX1!"
     ],
     "stock": [
         "AAPL",
